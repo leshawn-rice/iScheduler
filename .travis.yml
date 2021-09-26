@@ -5,11 +5,11 @@ node_js:
 script:
   - cd frontend
   - npm install
-  - npm run test --passWithNoTests
+  - npm run test
   - npm run build
   - cd ../backend
   - npm install
-  - npm run test --passWithNoTests
+  - npm run test
 
 services:
   - postgresql
